@@ -57,3 +57,11 @@ The Python code will be saved in the environment variable $PYCODE
 - word_first_3 should contain the first 3 letters of the variable word
 - word_last_2 should contain the last 2 letters of the variable word
 - middle_word should contain the value of the variable word without the first and last letters
+
+[8-concat_edges.py](./8-concat_edges.py) - Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/8-concat_edges.py) to print object-oriented programming with Python, followed by a new line.
+
+- You can find the source code [here](https://github.com/holbertonschool/0x00.py/blob/master/8-concat_edges.py)
+- You are not allowed to use any loops or conditional statements
+- Your program should be exactly 5 lines long
+- You are not allowed to create new variables
+- You are not allowed to use string literals
