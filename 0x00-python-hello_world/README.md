@@ -74,3 +74,10 @@ The Python code will be saved in the environment variable $PYCODE
 
 - Prototype: int check_cycle(listint_t \*list);
 - Return: 0 if there is no cycle, 1 if there is a cycle
+
+[100-write.py](./100-write.py) - Write a Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line.
+
+- Use the function write from the sys module
+- You are not allowed to use print
+- Your script should print to stderr
+- Your script should exit with the status code 1
