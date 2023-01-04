@@ -48,16 +48,15 @@
 - You are not allowed to store numbers or strings in a variable
 - You are not allowed to import any module
 
-[5-print_string.py](./5-print_string.py) - Complete this source code in order to print 3 times a string stored in the variable str, followed by its first 9 characters.
+[5-print_comb2.py](./5-print_comb2.py) - Write a program that prints numbers from 0 to 99.
 
-- You can find the source code here
-- The output of the program should be:
-  - 3 times the value of str
-  - followed by a new line
-  - followed by the 9 first characters of str
-  - followed by a new line
-- You are not allowed to use any loops or conditional statement
-- Your program should be maximum 5 lines long
+- Numbers must be separated by ,, followed by a space
+- Numbers should be printed in ascending order, with two digits
+- The last number should be followed by a new line
+- You can only use no more than 2 print functions with string format
+- You can only use one loop in your code
+- You are not allowed to store numbers or strings in a variable
+- You are not allowed to import any module
 
 [6-concat.py](./6-concat.py) - Complete this source code to print Welcome to Holberton School!
 
