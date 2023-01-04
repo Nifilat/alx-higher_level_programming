@@ -80,15 +80,18 @@
 - You are not allowed to use str.upper() and str.isupper()
 - Tips: ord()
 
-You don’t need to understand **import**
+You don’t need to understand [__import__]
 
-[8-concat_edges.py](./8-concat_edges.py) - Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/8-concat_edges.py) to print object-oriented programming with Python, followed by a new line.
+[8-uppercase.py](./8-uppercase.py) - Write a function that prints a string in uppercase followed by a new line.
 
-- You can find the source code [here](https://github.com/holbertonschool/0x00.py/blob/master/8-concat_edges.py)
-- You are not allowed to use any loops or conditional statements
-- Your program should be exactly 5 lines long
-- You are not allowed to create new variables
-- You are not allowed to use string literals
+- Prototype: def uppercase(str):
+- You can only use no more than 2 print functions with string format
+- You can only use one loop in your code
+- You are not allowed to import any module
+- You are not allowed to use str.upper() and str.isupper()
+- Tips: ord()
+
+You don’t need to understand [__import__]
 
 [9-easter_egg.py](./9-easter_egg.py) - Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
 
