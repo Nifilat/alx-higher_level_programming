@@ -80,7 +80,7 @@
 - You are not allowed to use str.upper() and str.isupper()
 - Tips: ord()
 
-You don’t need to understand [__import__]
+You don’t need to understand \_\_import\_\_
 
 [8-uppercase.py](./8-uppercase.py) - Write a function that prints a string in uppercase followed by a new line.
 
@@ -91,11 +91,14 @@ You don’t need to understand [__import__]
 - You are not allowed to use str.upper() and str.isupper()
 - Tips: ord()
 
-You don’t need to understand [__import__]
+You don’t need to understand \_\_import\_\_
 
-[9-easter_egg.py](./9-easter_egg.py) - Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
+[9-print_last_digit.py](./9-print_last_digit.py) - Write a function that prints the last digit of a number.
 
-- Your script should be maximum 98 characters long (please check with wc -m 9-easter_egg.py)
+- Prototype: def print_last_digit(number):
+- Returns the value of the last digit
+- You are not allowed to import any module
+- You don’t need to understand \_\_import\_\_
 
 [10-check_cycle.c](./10-check_cycle.c) - Write a function in C that checks if a singly linked list has a cycle in it.
 
