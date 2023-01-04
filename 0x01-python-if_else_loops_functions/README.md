@@ -26,9 +26,12 @@
     - if the last digit is less than 6 and not 0: the string and is less than 6 and not 0
   - followed by a new line
 
-[2-print.py](./2-print.py) - Write a Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+[2-print_alphabet.py](./2-print_alphabet.py) - Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
 
-- Use the function print
+- You can only use one print function with string format
+- You can only use one loop in your code
+- You are not allowed to store characters in a variable
+- You are not allowed to import any module
 
 [3-print_number.py](./3-print_number.py) - Complete this source code in order to print the integer stored in the variable number, followed by Battery street, followed by a new line.
 
