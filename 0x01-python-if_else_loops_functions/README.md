@@ -98,12 +98,16 @@ You don’t need to understand \_\_import\_\_
 - Prototype: def print_last_digit(number):
 - Returns the value of the last digit
 - You are not allowed to import any module
-- You don’t need to understand \_\_import\_\_
 
-[10-check_cycle.c](./10-check_cycle.c) - Write a function in C that checks if a singly linked list has a cycle in it.
+You don’t need to understand \_\_import\_\_
 
-- Prototype: int check_cycle(listint_t \*list);
-- Return: 0 if there is no cycle, 1 if there is a cycle
+[10-add.py](./10-add.py) - Write a function that adds two integers and returns the result.
+
+- Prototype: def add(a, b):
+- Returns the value of a + b
+- You are not allowed to import any module
+
+You don’t need to understand \_\_import\_\_
 
 [100-write.py](./100-write.py) - Write a Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line.
 
