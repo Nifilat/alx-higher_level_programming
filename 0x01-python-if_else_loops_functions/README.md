@@ -109,6 +109,14 @@ You don’t need to understand \_\_import\_\_
 
 You don’t need to understand \_\_import\_\_
 
+[11-pow.py](./11-pow.py) - Write a function that computes a to the power of b and return the value.
+
+- Prototype: def pow(a, b):
+- Returns the value of a ^ b
+- You are not allowed to import any module
+
+You don’t need to understand \_\_import\_\_
+
 [100-write.py](./100-write.py) - Write a Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line.
 
 - Use the function write from the sys module
