@@ -41,14 +41,12 @@
 - You are not allowed to store characters in a variable
 - You are not allowed to import any module
 
-[4-print_float.py](./4-print_float.py) - Complete the source code in order to print the float stored in the variable number with a precision of 2 digits.
+[4-print_hexa.py](./4-print_hexa.py) - Write a program that prints all numbers from 0 to 98 in decimal and in hexadecimal (as in the following example)
 
-- You can find the source code [here](https://github.com/holbertonschool/0x00.py/blob/master/4-print_float.py)
-- The output of the program should be:
-  - Float:, followed by the float with only 2 digits
-  - followed by a new line
-- You are not allowed to cast number to string
-- You have to use f-strings
+- You can only use one print function with string format
+- You can only use one loop in your code
+- You are not allowed to store numbers or strings in a variable
+- You are not allowed to import any module
 
 [5-print_string.py](./5-print_string.py) - Complete this source code in order to print 3 times a string stored in the variable str, followed by its first 9 characters.
 
