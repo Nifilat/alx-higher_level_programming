@@ -84,16 +84,13 @@
 - You have to use "{:d}".format() to print as integer
 - You are not allowed to use type()
 
-[8-uppercase.py](./8-uppercase.py) - Write a function that prints a string in uppercase followed by a new line.
+[101-safe_function.py](./101-safe_function.py) - Write a function that executes a function safely.
 
-- Prototype: def uppercase(str):
-- You can only use no more than 2 print functions with string format
-- You can only use one loop in your code
-- You are not allowed to import any module
-- You are not allowed to use str.upper() and str.isupper()
-- Tips: ord()
-
-You don’t need to understand \_\_import\_\_
+- Prototype: def safe_function(fct, \*args):
+- You can assume fct will be always a pointer to a function
+- Returns the result of the function,
+- Otherwise, returns None if something happens during the function and prints in stderr the error precede by Exception:
+- You have to use try: / except:
 
 [9-print_last_digit.py](./9-print_last_digit.py) - Write a function that prints the last digit of a number.
 
