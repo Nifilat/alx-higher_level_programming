@@ -73,16 +73,16 @@
 - Prototype: def raise_exception_msg(message=""):
 - You are not allowed to import any module
 
-[7-islower.py](./7-islower.py) - Write a function that checks for lowercase character.
+[100-safe_print_integer_err.py](./100-safe_print_integer_err.py) - Write a function that prints an integer.
 
-- Prototype: def islower(c):
-- Returns True if c is lowercase
-- Returns False otherwise
-- You are not allowed to import any module
-- You are not allowed to use str.upper() and str.isupper()
-- Tips: ord()
-
-You don’t need to understand \_\_import\_\_
+- Prototype: def safe_print_integer_err(value):
+- value can be any type (integer, string, etc.)
+- The integer should be printed followed by a new line
+- Returns True if value has been correctly printed (it means the value is an integer)
+- Otherwise, returns False and prints in stderr the error precede by Exception:
+- You have to use try: / except:
+- You have to use "{:d}".format() to print as integer
+- You are not allowed to use type()
 
 [8-uppercase.py](./8-uppercase.py) - Write a function that prints a string in uppercase followed by a new line.
 
