@@ -94,31 +94,4 @@
 
 [102-magic_calculation.py](./102-magic_calculation.py)
 
-[10-add.py](./10-add.py) - Write a function that adds two integers and returns the result.
-
-- Prototype: def add(a, b):
-- Returns the value of a + b
-- You are not allowed to import any module
-
-You don’t need to understand \_\_import\_\_
-
-[11-pow.py](./11-pow.py) - Write a function that computes a to the power of b and return the value.
-
-- Prototype: def pow(a, b):
-- Returns the value of a ^ b
-- You are not allowed to import any module
-
-You don’t need to understand \_\_import\_\_
-
-[100-write.py](./100-write.py) - Write a Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line.
-
-- Use the function write from the sys module
-- You are not allowed to use print
-- Your script should print to stderr
-- Your script should exit with the status code 1
-
-[101-compile](./101-compile) - Write a script that compiles a Python script file.
-
-The Python file name will be stored in the environment variable $PYFILE
-
-The output filename has to be $PYFILEc (ex: export PYFILE=my_main.py => output filename: my_main.pyc)
+[103-python.c](./103-python.c) - Create three C functions that print some basic info about Python lists, Python bytes an Python float objects.
