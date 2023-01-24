@@ -24,12 +24,18 @@
 - You are not allowed to import any module
 - You are not allowed to use type()
 
-[2-print_alphabet.py](./2-print_alphabet.py) - Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
+[2-safe_print_list_integers.py](./2-safe_print_list_integers.py) - Write a function that prints the first x elements of a list and only integers.
 
-- You can only use one print function with string format
-- You can only use one loop in your code
-- You are not allowed to store characters in a variable
+- Prototype: def safe_print_list_integers(my_list=[], x=0):
+- my_list can contain any type (integer, string, etc.)
+- All integers have to be printed on the same line followed by a new line - other type of value in the list must be skipped (in silence).
+- x represents the number of elements to access in my_list
+- x can be bigger than the length of my_list - if it’s the case, an exception is expected to occur
+- Returns the real number of integers printed
+- You have to use try: / except:
+- You have to use "{:d}".format() to print an integer
 - You are not allowed to import any module
+- You are not allowed to use len()
 
 [3-print_alphabt.py](./3-print_alphabt.py) - Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
 
