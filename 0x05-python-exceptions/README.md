@@ -37,12 +37,14 @@
 - You are not allowed to import any module
 - You are not allowed to use len()
 
-[3-print_alphabt.py](./3-print_alphabt.py) - Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
+[3-safe_print_division.py](./3-safe_print_division.py) - Write a function that divides 2 integers and prints the result.
 
-- Print all the letters except q and e
-- You can only use one print function with string format
-- You can only use one loop in your code
-- You are not allowed to store characters in a variable
+- Prototype: def safe_print_division(a, b):
+- You can assume that a and b are integers
+- The result of the division should print on the finally: section preceded by Inside result:
+- Returns the value of the division, otherwise: None
+- You have to use try: / except: / finally:
+- You have to use "{}".format() to print the result
 - You are not allowed to import any module
 
 [4-print_hexa.py](./4-print_hexa.py) - Write a program that prints all numbers from 0 to 98 in decimal and in hexadecimal (as in the following example)
