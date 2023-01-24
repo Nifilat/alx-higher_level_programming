@@ -68,17 +68,9 @@
 - Prototype: def raise_exception():
 - You are not allowed to import any module
 
-[6-print_comb3.py](./6-print_comb3.py) - Write a program that prints all possible different combinations of two digits.
+[6-raise_exception_msg.py](./6-raise_exception_msg.py) - Write a function that raises a name exception with a message.
 
-- Numbers must be separated by ,, followed by a space
-- The two digits must be different
-- 01 and 10 are considered the same combination of the two digits 0 and 1
-- Print only the smallest combination of two digits
-- Numbers should be printed in ascending order, with two digits
-- The last number should be followed by a new line
-- You can only use no more than 3 print functions with string format
-- You can only use no more than 2 loops in your code
-- You are not allowed to store numbers or strings in a variable
+- Prototype: def raise_exception_msg(message=""):
 - You are not allowed to import any module
 
 [7-islower.py](./7-islower.py) - Write a function that checks for lowercase character.
