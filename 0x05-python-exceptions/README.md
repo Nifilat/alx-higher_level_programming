@@ -92,13 +92,7 @@
 - Otherwise, returns None if something happens during the function and prints in stderr the error precede by Exception:
 - You have to use try: / except:
 
-[9-print_last_digit.py](./9-print_last_digit.py) - Write a function that prints the last digit of a number.
-
-- Prototype: def print_last_digit(number):
-- Returns the value of the last digit
-- You are not allowed to import any module
-
-You don’t need to understand \_\_import\_\_
+[102-magic_calculation.py](./102-magic_calculation.py)
 
 [10-add.py](./10-add.py) - Write a function that adds two integers and returns the result.
 
